@@ -42,21 +42,18 @@
   color: #fdfdfd;
 }
 /*  main end  here  */
-=======
+{
     box-sizing: border-box;
     margin:0;
     padding:0;
     font-family: "IBM Plex Mono", monospace;
+  
 }
 
-
-
-.nav-bar  {
+.nav-bar {
     position: sticky;
     top: 0;
-    
-
-}
+    }
 
 #logo {
     font-family: "Caveat", cursive;
@@ -222,3 +219,54 @@ footer {
 /* ------------ END footer ---------------  */
 
 
+
+
+
+
+.menu-section{
+  background-image: url('../images/background-1.avif');
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  
+}
+.menu-items{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: row;
+  
+}
+.pizza-icon ,.salad-icon{
+  justify-content: center;
+  width: 70px;
+  
+}
+.pizza ,.salad{
+  padding: 10px;
+  margin: 10px;
+}
+.pizza-img,.salad-img{
+  width: 250px;
+  height: 280px;
+  position: relative;
+}
+.menu-section p{
+  font-family: cursive;
+  color: white;
+  text-align: center;
+}
+.pizza-name ,.pizza-section ,.salad-name ,.salad-section{
+  font-family: "IBM Plex Mono", monospace;
+  color: white;
+  text-align: center;
+}
+.pizza-price ,.salad-price{
+  font-family: cursive;
+  color: #fd6f16;
+  text-align: center;
+}
+.line {
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  width: 100%;}
