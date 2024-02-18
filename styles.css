@@ -100,3 +100,125 @@ align-self: flex-start;
 
 }
 
+
+/* ------------ START footer ---------------  */
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  background-color: #0e0d0b;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact__container h3 {
+  color: #fd6f16;
+}
+
+.contact__container p {
+  margin-bottom: -8px;
+}
+
+.contact__container p a {
+  color: white;
+}
+
+.contact__container p a:hover {
+  color: #fd6f16;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon .social-icons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon .social-icons li {
+  padding: 0 18px;
+  font-size: 20px;
+}
+
+.icon .social-icons li i {
+  color: white;
+}
+
+.icon .social-icons li i:hover {
+  color: #fd6f16;
+}
+
+.bottom-bar {
+  padding: 25px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.contact__container .link--head {
+  margin-left: 35px;
+}
+
+.usful__links li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.usful__links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.usful__links li a:hover {
+  text-decoration: underline;
+  color: #fd6f16;
+}
+
+.bottom-bar img {
+  width: 40px;
+  height: 40px;
+}
+
+.input-container {
+  display: flex;
+}
+
+.news-p {
+  margin-bottom: 25px;
+}
+
+.news__input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 2rem;
+  margin-top: 30px;
+}
+
+.submit {
+  border-radius: 2rem;
+  width: 25%;
+  margin-left: -55px;
+  background-color: #fd6f16;
+  margin-top: 30px;
+}
+
+.work {
+  margin-bottom: 45px;
+}
+
+.news {
+  margin-bottom: 45px;
+}
+
+/* ------------ END footer ---------------  */
+
+
