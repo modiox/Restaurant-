@@ -7,11 +7,199 @@
     <title>My Website</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main>
-      <h1>Welcome to My Website</h1>
+    <header>
+      <nav class="nav-bar">
+        
+        <ul class="nav-section">
+          <li id="logo"><a href="">Pizzatna</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#services">Services</a></li>
+          <li<a href="#about-us" >About us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="home">
+      <main id="home">
+        <div class="hero__image">
+          <div class="hero__text">
+            <h1 class="text__title">Welcome to Pizzatna Restaurant</h1>
+            <button aria-describedby="view menus">view menus</button>
+          </div>
+        </div>
+         <header>
+        <nav class="nav-bar">
+  
+          <ul class="nav-section">
+  @@ -28,10 +39,9 @@
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="menu-section"> 
+          <div class="line"> 
+          <img src="/images/pizza-icon.png" class="pizza-icon"  alt="Pizza-icon"> 
+          <h3 class="pizza-section">OUR PIZZA OF THE DAY</h3> 
+        </div> 
+          <div class="menu-items"> 
+            <div class="pizza"> 
+              <img src="/images/pizza-1-.png" class="pizza-img"  alt="Pizza"> 
+              <h3 class="pizza-name">SALMONE E PESTO DI NOCI</h3> 
+              <p>Tomatoes, bacon, onion</p> 
+              <h3 class="pizza-price">5.45$</h3> 
+            </div> 
+            <div class="pizza"> 
+              <img src="/images/pizza-2-.png" class="pizza-img"  alt="Pizza"> 
+              <h3 class="pizza-name">MARGHERITA</h3> 
+              <p>Tomatoes, mozzarella, oregano</p> 
+              <h3 class="pizza-price">5.45$</h3> 
+            </div> 
+            <div class="pizza"> 
+              <img src="/images/pizza-3-.png" class="pizza-img"  alt="Pizza"> 
+              <h3 class="pizza-name">TONNO AL CARCIOFI</h3> 
+              <p>Tomatoes, mozzarella, Shrimp</p> 
+              <h3 class="pizza-price">5.45$</h3> 
+            </div> 
+          </div> 
+     
+          <div class="line"> 
+            <img src="/images/salad-icon.png" class="salad-icon"  alt="salad-icon"> 
+            <h3 class="salad-section">OUR SALAD OF THE DAY</h3> 
+          </div> 
+           
+          <div class="menu-items"> 
+            <div class="salad"> 
+              <img src="/images/salad1.png" class="salad-img"  alt="salad"> 
+              <h3 class="salad-name">SHIRMP SALAD </h3> 
+              <p>Mixed Leafs with fresh veggies and and grilled shrimp</p> 
+              <h3 class="salad-price">5.45$</h3> 
+            </div> 
+            <div class="pizza"> 
+              <img src="/images/salad2.png" class="salad-img"  alt="salad"> 
+              <h3 class="salad-name">MIXED GREENS</h3> 
+              <p>Mixed Leafs with fresh veggies and balsamic vinegratte</p> 
+              <h3 class="salad-price">5.45$</h3> 
+            </div> 
+            <div class="salad"> 
+              <img src="/images/salad3.png" class="salad-img"  alt="salad"> 
+              <h3 class="salad-name">CHICKEN AND BROCCOLI SALAD</h3> 
+              <p>Roasted Chicken, potatoes, red bell peppers, broccoli and red onions </p> 
+              <h3 class="salad-price">5.45$</h3> 
+            </div> 
+          </div> 
+        </section>
+
+      <section class="history-section">
+        <div class="container">
+          <h2>Our History</h2>
+          <div class="timeline">
+            <div class="event">
+              <div class="event-date">2005</div>
+              <div class="event-content">
+                <h3>Establishment</h3>
+                <p>Restaurant was founded.</p>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-date">2010</div>
+              <div class="event-content">
+                <h3>New Menu</h3>
+                <p>New menu items were introduced.</p>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-date">2015</div>
+              <div class="event-content">
+                <h3>Expansion</h3>
+                <p>Restaurant expanded to new locations.</p>
+              </div>
+            </div>
+            <div class="event">
+              <div class="event-date">2020</div>
+              <div class="event-content">
+                <h3>Awards</h3>
+                <p>Restaurant won several awards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <footer>
+        <section class="contact">
+          <div class="contact__container">
+            <h3>Restaurant Name</h3>
+            <p>Al Tahlia Street</p>
+            <p>Jeddah, Saudi Arabia</p>
+            <p><a href="tel:+9665555555">Call +9665555555</a></p>
+            <p
+              ><a href="mailto:mywebsite@example.com">mywebsite@example.com</a></p
+            >
+            <div class="icon">
+              <ul class="social-icons">
+                <li
+                  ><a href=""><i class="fab fa-facebook"></i></a
+                ></li>
+                <li
+                  ><a href=""><i class="fab fa-twitter"></i></a
+                ></li>
+                <li
+                  ><a href=""><i class="fab fa-instagram"></i></a
+                ></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="contact__container work">
+            <h3>Worktime</h3>
+            <p class="worktime"
+              >Saturday - Thursday <br />
+              11:00 AM - 3:00 PM <br />
+              5:00 PM - 1:00 AM
+              <br />
+              Friday <br />
+              2:00 PM - 11:00 PM
+            </p>
+          </div>
+  
+          <div class="contact__container">
+            <h3 class="link--head">Useful links</h3>
+            <ul class="usful__links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Food menu</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+            </ul>
+          </div>
+  
+          <div class="contact__container news">
+            <h3>Our Newsletter</h3>
+            <p class="news-p">Sign up to be the first to get news and EXCLUSIVE OFFERS</p>
+            <form class="input-container">
+              <input class="news__input" type="email" placeholder="Enter your email" />
+              <button class="submit" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </section>
+        <div class="bottom-bar">
+          <p>&copy; 2024 Restaurant Name . All rights reserved</p>
+        </div>
+      </footer>
+  
+      
     </main>
-    <script src="index.js"></script>
+
+    
   </body>
 </html>
